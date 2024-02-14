@@ -12,7 +12,6 @@ let width = window.innerWidth;
 let height = window.innerHeight;
 
 // UI Setup
-
 const gui = new GUI();
 
 const folderNoise = gui.addFolder( 'Noise Parameters' ); 
