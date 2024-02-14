@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NoiseCrafted Dimensions</title>
+    <link rel="icon" type="image/png" href="MarchingCubes.svg"/>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Creative Computing 2024</div>
+      <div class="nav-items">
+        <a href="../index.html">Home</a> <a href="../app/index.html">App</a> <a href="../howto/index.html">How it works</a>
+      </div>
+    </nav>
+        <section class="hero">
+            <div id="threejs-container"></div>
+            <script type="module" src="/app/app.js"></script>
+          </section>
+    </body>
+    <script src="https://unpkg.com/kursor"></script>
+    <script>
+        new kursor({
+            type: 3,
+            removeDefaultCursor: true
+        })
+    </script>
+</html>
